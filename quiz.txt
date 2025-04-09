@@ -1,0 +1,18 @@
+#QUESTIONS
+x
+#OPTIONS
+a) yin
+b) badang
+c) moskov
+d) chou
+#ANSWERb
+Moving on...
+#QUESTIONS
+x
+#OPTIONS
+a) badang
+b) lapo
+c) moskab
+d) miya
+#ANSWER d
+Moving on...
