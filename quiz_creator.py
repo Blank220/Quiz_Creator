@@ -17,9 +17,9 @@ while True:
     options = ['a', 'b', 'c', 'd']
 
 #ask the user the correct answer and checks if it is in the choices given
-    correct_option = input('What option is the correct answer? (a/b/c/d): ').lower()
-    
-    if correct_option not in options:
+    while True:
+        correct_option = input('What option is the correct answer? (a/b/c/d): ').lower()
+        if correct_option in options:  
+            print(f'Nice! So The Right Answer is {correct_option}! ')
+            break
         print('Error! Answer Given Is Not On The Choices!')
-        continue
-    
