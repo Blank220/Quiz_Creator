@@ -3,7 +3,7 @@ counter = 0
 
 #ask user for a question or give them the choice to exit
 while True:
-    question = input('Enter A Question Of Your Choice Or Type "x" To Stop: ')
+    question = input('Enter A Question Of Your Choice Or Type "x" To Stop: *')
     if question.lower() == 'x':
         print('Thank You For Using Quiz Crafter \nHave A Great Day!')
         break
@@ -34,3 +34,7 @@ while True:
         file.write('d) ' + option_d + '\n')
         file.write('#ANSWER ' + correct_option + '\n')
         file.write('Moving on...\n')
+    
+    counter += 1
+    print(f'.....Question Saved Successfully \n You\'ve added {counter} Questions')
+

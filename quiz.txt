@@ -1,9 +1,0 @@
-#QUESTIONS
-Sinong Pumatay Kay Lapu Lapu?
-#OPTIONS
-a) Badang
-b) Yin
-c) Moskov
-d) Chou
-#ANSWER a
-Moving on...
