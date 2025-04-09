@@ -1,11 +1,12 @@
 #marks how many question is saved
 counter = 0
+print('WELCOME TO QUIZ LEGENDS!\nGet ready to create the Ultimate Quiz!')
 
 #ask user for a question or give them the choice to exit
 while True:
     question = input('Enter A Question Of Your Choice Or Type "x" To Stop: *')
     if question.lower() == 'x':
-        print('Thank You For Using Quiz Crafter \nHave A Great Day!')
+        print('Thank You For Using Quiz Legends \nHave A Great Day!')
         break
 
     print('Now, What Are The Possible Answers? ')

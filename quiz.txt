@@ -1,0 +1,18 @@
+#QUESTIONS
+Sino pumatay kay lapolapo
+#OPTIONS
+a) mskov
+b) badang
+c) yin
+d) chou
+#ANSWER b
+Moving on...
+#QUESTIONS
+if
+#OPTIONS
+a) i
+b) end
+c) up
+d) with u
+#ANSWER a
+Moving on...
