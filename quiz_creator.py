@@ -25,12 +25,12 @@ while True:
         print('Error! Answer Given Is Not On The Choices!')
 
 #saves the question and answer to a text file
-with open('quiz.txt', 'a') as file:
-    file.write('#QUESTIONS\n' + question + '\n')
-    file.write('#OPTIONS\n')
-    file.write('a) ' + option_a + '\n')
-    file.write('b) ' + option_b + '\n')
-    file.write('c) ' + option_c + '\n')
-    file.write('d) ' + option_d + '\n')
-    file.write('#ANSWER ' + correct_option + '\n')
-    file.write('Moving on...\n')
+    with open('quiz.txt', 'a') as file:
+        file.write('#QUESTIONS\n' + question + '\n')
+        file.write('#OPTIONS\n')
+        file.write('a) ' + option_a + '\n')
+        file.write('b) ' + option_b + '\n')
+        file.write('c) ' + option_c + '\n')
+        file.write('d) ' + option_d + '\n')
+        file.write('#ANSWER ' + correct_option + '\n')
+        file.write('Moving on...\n')
