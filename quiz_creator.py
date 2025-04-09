@@ -1,6 +1,12 @@
+import time
 #marks how many question is saved
 counter = 0
-print('WELCOME TO QUIZ LEGENDS!\nGet ready to create the Ultimate Quiz!')
+print('WELCOME TO QUIZ LEGENDS!'.center(80))
+time.sleep(2)
+print('Get Ready To Create The Ultimate Quiz!'.center(80))
+time.sleep(1)
+print('Loading......'.center(80))
+time.sleep(2)
 
 #ask user for a question or give them the choice to exit
 while True:
@@ -35,7 +41,8 @@ while True:
         file.write('d) ' + option_d + '\n')
         file.write('#ANSWER ' + correct_option + '\n')
         file.write('Moving on...\n')
-    
+    print('Saving Question.....')
+    time.sleep(2)
     counter += 1
     print(f'.....Question Saved Successfully \n You\'ve added {counter} Questions')
 

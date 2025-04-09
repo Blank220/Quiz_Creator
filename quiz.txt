@@ -1,18 +1,18 @@
 #QUESTIONS
-Sino pumatay kay lapolapo
+Cnu ang Pumatay kay Lapu-Lapu
 #OPTIONS
-a) mskov
-b) badang
-c) yin
-d) chou
-#ANSWER b
+a) Badang
+b) Layla
+c) Alucard
+d) Chou
+#ANSWER c
 Moving on...
 #QUESTIONS
-if
+Anong Pak ang Mataas Tumalon?
 #OPTIONS
-a) i
-b) end
-c) up
-d) with u
-#ANSWER a
+a) Edi Tipaklong!
+b) Manny Pakyaw
+c) Malabanan supsop poso negro
+d) Regine Velasquez
+#ANSWER d
 Moving on...
