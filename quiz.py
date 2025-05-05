@@ -34,12 +34,12 @@ for q in questions:
    print(q[4])
 
 #checks if answer is right
-ans = input('What\'s your answer? (a/b/c/d):'.lower())
-if ans == q[5]:
-   print('Correct!')
-   score += 1
-else:
-   print('Wrong!')
+   ans = input('What\'s your answer? (a/b/c/d):'.lower())
+   if ans == q[5]:
+      print('Correct!')
+      score += 1
+   else:
+      print('Wrong!')
 
 print('donenenenenene')
 
