@@ -19,7 +19,14 @@ while i < len(lines):
 #choosing random questions
 random.shuffle(questions)
 #printing the question and choices
+for q in questions:
+   print('\n q[0]')
+   print('q[1]')
+   print('q[2]')
+   print('q[3]')
+   print('q[4]')
 
+   ans = input('What\'s your answer?')
 #checks if answer is right
 #tracking of scores
 
