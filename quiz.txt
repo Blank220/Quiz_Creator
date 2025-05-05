@@ -17,11 +17,11 @@ d) Regine Velasquez
 #ANSWER d
 Moving on...
 #QUESTIONS
-who am i
+Ano ang capital ng Pilipinas
 #OPTIONS
-a) 23
-b) 44
-c) 5555
-d) 654
-#ANSWER c
+a) Manila
+b) Letter P
+c) Bicol
+d) Cubao
+#ANSWER b
 Moving on...
