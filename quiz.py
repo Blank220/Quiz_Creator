@@ -1,5 +1,7 @@
 import random
 import time
+import winsound
+  
 
 #open the quiz file and read it
 with open('quiz.txt', 'r') as file:
@@ -64,11 +66,13 @@ for q in questions:
       print('Checking answer...')
       time.sleep(1)
       print('✅ Correct!')
+      winsound.PlaySound("SystemExclamation", winsound.SND_ALIAS)
       score += 1
    else:
       print('Checking answer...')
       time.sleep(1)
       print(f'❌ Wrong! The correct answer is {q[5]}')
+      winsound.PlaySound("SystemHand", winsound.SND_ALIAS)
       
 #Final Score
 if score == 0:
