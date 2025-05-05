@@ -2,7 +2,6 @@ import random
 import time
 import winsound
   
-
 #open the quiz file and read it
 with open('quiz.txt', 'r') as file:
    lines = file.readlines()
