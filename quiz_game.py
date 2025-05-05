@@ -76,6 +76,8 @@ for q in questions:
 #Final Score
 if score == 0:
    print(f'Wala Kang Tinama Kahit Isa, Mag Review Ka Pa! {score} out of {len(questions)}')
+elif score == len(questions):
+   print(f'Wow, Sanaol Perpek {score} out of {len(questions)}')
 else:
    print(f'Finished! You Did A Wonderful Job! \nYou got {score} out of {len(questions)}')
 
