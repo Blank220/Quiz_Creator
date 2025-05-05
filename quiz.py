@@ -17,8 +17,9 @@ while i < len(lines):
       correct = lines[i + 7].strip()[-1]
       questions.append((q,a,b,c,d))
 #choosing random questions
-#shapol
+random.shuffle(questions)
 #printing the question and choices
+
 #checks if answer is right
 #tracking of scores
 
