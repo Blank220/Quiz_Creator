@@ -43,10 +43,22 @@ for q in questions:
    print(q[4])
 
 #checks if answer is right
-   ans = input('What\'s your answer? (a/b/c/d): ').lower()
-   while ans not in ['a','b','c','d']:
+   ans = input('What\'s your answer? (a/b/c/d) or "x" to exit: ').lower()
+   if ans == 'x':
+         print('Exiting program....Byeeee!')
+         time.sleep(2)
+         break
+   
+   while ans not in ['a','b','c','d',"x"]:
       print('Invalid answer,please refer to the choices')
-      ans = input('What\'s your answer? (a/b/c/d):'.lower())
+      ans = input('What\'s your answer? (a/b/c/d or "x" to exit):'.lower())
+
+      if ans == 'x':
+         print('Exiting program....Byeeee!')
+         time.sleep(2)
+         break
+   if ans == 'x':
+      break
 
    if ans == q[5]:
       print('Checking answer...')
