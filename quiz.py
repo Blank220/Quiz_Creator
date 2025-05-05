@@ -40,11 +40,11 @@ for q in questions:
       ans = input('What\'s your answer? (a/b/c/d):'.lower())
 
    if ans == q[5]:
-      print('Correct!')
+      print('✅ Correct!')
       score += 1
    else:
-      print('Wrong!')
+      print(f'❌ Wrong! The correct answer is {q[5]}')
       
 
-print('donenenenenene')
+print(f'Finished! You did a wonderful job! \nYou got {score} out of {len(questions)}')
 
