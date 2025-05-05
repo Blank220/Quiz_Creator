@@ -34,12 +34,17 @@ for q in questions:
    print(q[4])
 
 #checks if answer is right
-   ans = input('What\'s your answer? (a/b/c/d):'.lower())
+   ans = input('What\'s your answer? (a/b/c/d): ').lower()
+   while ans not in ['a','b','c','d']:
+      print('Invalid answer,please refer to the choices')
+      ans = input('What\'s your answer? (a/b/c/d):'.lower())
+
    if ans == q[5]:
       print('Correct!')
       score += 1
    else:
       print('Wrong!')
+      
 
 print('donenenenenene')
 
