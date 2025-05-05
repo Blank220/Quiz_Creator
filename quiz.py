@@ -59,5 +59,8 @@ for q in questions:
       print(f'❌ Wrong! The correct answer is {q[5]}')
       
 #Final Score
-print(f'Finished! You Did A Wonderful Job! \nYou got {score} out of {len(questions)}')
+if score == 0:
+   print(f'Wala Kang Tinama Kahit Isa, Mag Review Ka Pa! {score} out of {len(questions)}')
+else:
+   print(f'Finished! You Did A Wonderful Job! \nYou got {score} out of {len(questions)}')
 
