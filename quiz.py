@@ -1,8 +1,17 @@
 import random
+import time
 
 #open the quiz file and read it
 with open('quiz.txt', 'r') as file:
    lines = file.readlines()
+
+#Introduction to the Game
+print('WELCOME TO QUIZ LEGENDS!'.center(80))
+time.sleep(2)
+print('Get Ready To Answer The Ultimate Quiz!'.center(80))
+time.sleep(1)
+print('Loading......'.center(80))
+time.sleep(2)
 
 #formatting of the questions/choices
 questions = []
@@ -40,11 +49,15 @@ for q in questions:
       ans = input('What\'s your answer? (a/b/c/d):'.lower())
 
    if ans == q[5]:
+      print('Checking answer...')
+      time.sleep(1)
       print('✅ Correct!')
       score += 1
    else:
+      print('Checking answer...')
+      time.sleep(1)
       print(f'❌ Wrong! The correct answer is {q[5]}')
       
-
-print(f'Finished! You did a wonderful job! \nYou got {score} out of {len(questions)}')
+#Final Score
+print(f'Finished! You Did A Wonderful Job! \nYou got {score} out of {len(questions)}')
 
